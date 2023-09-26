@@ -6,7 +6,7 @@ const {fileUpload} = require("./controllers/fileUploadController")
 const cors = require("cors")
 
 
-const  multipartMiddleware = multipart({ uploadDir:"./uploads"}` });
+const  multipartMiddleware = multipart({ uploadDir:"./uploads"}});
 
 app.use(cors())
 
